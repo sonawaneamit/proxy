@@ -7,22 +7,6 @@
     {
       "source": "/property-management/:path*",
       "destination": "property-management-rho-lake.vercel.app/:path*"
-    },
-    {
-      "source": "/construction",
-      "destination": "https://construction.vercel.app"
-    },
-    {
-      "source": "/construction/:path*",
-      "destination": "https://construction.vercel.app/:path*"
-    },
-    {
-      "source": "/earned-wage",
-      "destination": "https://earned-wage.vercel.app"
-    },
-    {
-      "source": "/earned-wage/:path*",
-      "destination": "https://earned-wage.vercel.app/:path*"
     }
   ]
 }
