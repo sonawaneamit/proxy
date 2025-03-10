@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/property-management",
-      "destination": "property-management-rho-lake.vercel.app"
+      "destination": "https://property-management-rho-lake.vercel.app"
     },
     {
       "source": "/property-management/:path*",
-      "destination": "property-management-rho-lake.vercel.app/:path*"
+      "destination": "https://property-management-rho-lake.vercel.app/:path*"
     }
   ]
 }
