@@ -8,5 +8,20 @@
       "source": "/property-management/:path*",
       "destination": "https://property-management-rho-lake.vercel.app/:path*"
     }
+  ],
+  "headers": [
+    {
+      "source": "/property-management/(.*)",
+      "headers": [
+        {
+          "key": "x-vercel-enable-rewrite-caching",
+          "value": "1"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
   ]
 }
